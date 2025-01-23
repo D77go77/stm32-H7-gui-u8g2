@@ -131,6 +131,7 @@ git clone https://github.com/Z1R343L-D77/stm32-H7-gui-u8g2.git
 本项目采用[GPL-3.0](LICENSE)协议开源。
 
 ## 参考资料
+- [wouo ui](https://github.com/RQNG/WouoUI)
 - [U8G2图形库](https://github.com/olikraus/u8g2)
 - [MultiButton按键库](https://github.com/0x1abin/MultiButton)
 - [OpenOCD用户手册](http://openocd.org/doc/html/index.html)
