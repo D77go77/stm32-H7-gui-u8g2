@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj"
+  "CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj.d"
   "CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj.d"
   "CMakeFiles/ui.elf.dir/Core/Src/main.c.obj"

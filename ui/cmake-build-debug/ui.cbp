@@ -106,6 +106,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/desktop_document/ui/Core/Inc/dma.h">
+			<Option target="ui.elf"/>
+		</Unit>
 		<Unit filename="D:/desktop_document/ui/Core/Inc/gpio.h">
 			<Option target="ui.elf"/>
 		</Unit>
@@ -122,6 +125,9 @@
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Core/Inc/stm32h7xx_it.h">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Core/Src/dma.c">
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Core/Src/gpio.c">

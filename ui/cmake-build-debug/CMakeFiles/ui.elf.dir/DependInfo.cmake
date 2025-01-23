@@ -35,6 +35,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/desktop_document/ui/Core/Src/dma.c" "CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj.d"
   "D:/desktop_document/ui/Core/Src/gpio.c" "CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/desktop_document/ui/Core/Src/main.c" "CMakeFiles/ui.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/main.c.obj.d"
   "D:/desktop_document/ui/Core/Src/memorymap.c" "CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.obj.d"
