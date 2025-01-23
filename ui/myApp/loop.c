@@ -11,11 +11,12 @@
 void loop(void)
 {
     myGpio_init();
-    u8g2_init();
     button_init_all();
     scheduler_init();
+    gui_init();
     while(1)
     {
+//        gui_task();
         scheduler_run();
     }
 }

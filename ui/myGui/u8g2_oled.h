@@ -2,12 +2,10 @@
 #ifndef __MD_OLED_DRIVER_H
 #define __MD_OLED_DRIVER_H
 
-#include "stdlib.h"	  
 #include "main.h"
 #include "gpio.h"
 #include "u8g2.h"
 #include "u8x8.h"
-
 
 #define OLED_SCK_Pin GPIO_PIN_13
 #define OLED_SCK_GPIO_Port GPIOB
@@ -30,9 +28,6 @@ uint8_t u8x8_byte_4wire_hw_spi(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int,void *
 uint8_t u8x8_stm32_gpio_and_delay(U8X8_UNUSED u8x8_t *u8x8,U8X8_UNUSED uint8_t msg, U8X8_UNUSED uint8_t arg_int,U8X8_UNUSED void *arg_ptr) ;
 void u8g2Init(u8g2_t *u8g2);
 void draw(u8g2_t *u8g2);
-
-void u8g2_proc(void);
-void u8g2_init(void);
 
 #endif  
 /********************************* end_of_file **********************************/

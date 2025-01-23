@@ -10,7 +10,7 @@
 #include "bsp_key.h"
 
 enum Button_IDs {
-    btn1_id,
+    btn1_id=1,
     btn2_id,
     btn3_id,
     btn4_id,
@@ -34,6 +34,8 @@ uint8_t read_button_GPIO(uint8_t button_id)
         case btn1_id:
             return HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_3);
         case btn2_id:
+            return HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_2);
+        case btn3_id:
             return HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_5);
         default:
             return 0;
@@ -47,7 +49,8 @@ uint8_t read_button_GPIO(uint8_t button_id)
   */
 void button_callback(void* btn) {
     struct Button *_btn = btn;
-
+    gui_btn_send_signal(_btn->button_id,_btn->event);
+#if 0
     switch (_btn->event) {
         case PRESS_DOWN:
 //			 LOG_INFO("---> key%d press down! <---\r\n",btn->button_id);
@@ -82,6 +85,7 @@ void button_callback(void* btn) {
 //			 LOG_INFO("---> key%d long press hold! <***\r\n",btn->button_id);
             break;
     }
+#endif
 }
 
 /**
@@ -93,11 +97,32 @@ void button_callback(void* btn) {
 void button_init_all(void)
 {
     button_init(&btn1, read_button_GPIO, 0, btn1_id);
-    button_init(&btn2, read_button_GPIO, 0, btn2_id);
-
     button_attach(&btn1, PRESS_DOWN,       button_callback);
-    button_attach(&btn2, PRESS_DOWN,       button_callback);
+    button_attach(&btn1, PRESS_UP,         button_callback);
+//	button_attach(&btn1, PRESS_REPEAT,     button_callback);
+//	button_attach(&btn1, SINGLE_CLICK,     button_callback);
+//	button_attach(&btn1, DOUBLE_CLICK,     button_callback);
+//	button_attach(&btn1, LONG_PRESS_START, button_callback);
+    button_attach(&btn1, LONG_PRESS_HOLD, button_callback);
+    button_start(&btn1);
 
+    button_init(&btn2, read_button_GPIO, 0, btn3_id);
+    button_attach(&btn2, PRESS_DOWN,       button_callback);
+    button_attach(&btn2, PRESS_UP,         button_callback);
+//	button_attach(&btn2, PRESS_REPEAT,     button_callback);
+//	button_attach(&btn2, SINGLE_CLICK,     button_callback);
+//	button_attach(&btn2, DOUBLE_CLICK,     button_callback);
+    button_attach(&btn2, LONG_PRESS_START, button_callback);
+    button_start(&btn2);
+
+    button_init(&btn3, read_button_GPIO, 0, btn2_id);
+    button_attach(&btn3, PRESS_DOWN,       button_callback);
+    button_attach(&btn3, PRESS_UP,         button_callback);
+//	button_attach(&btn2, PRESS_REPEAT,     button_callback);
+//	button_attach(&btn2, SINGLE_CLICK,     button_callback);
+//	button_attach(&btn2, DOUBLE_CLICK,     button_callback);
+    button_attach(&btn3, LONG_PRESS_START, button_callback);
+    button_start(&btn3);
 //    //for example
 //    button_attach(&btn2, PRESS_DOWN,       BTN2_PRESS_DOWN_Handler);
 //    button_attach(&btn2, PRESS_UP,         BTN2_PRESS_UP_Handler);
@@ -106,7 +131,4 @@ void button_init_all(void)
 //    button_attach(&btn2, DOUBLE_CLICK,     BTN2_DOUBLE_Click_Handler);
 //    button_attach(&btn2, LONG_PRESS_START, BTN2_LONG_PRESS_START_Handler);
 //    button_attach(&btn2, LONG_PRESS_HOLD,  BTN2_LONG_PRESS_HOLD_Handler);
-
-    button_start(&btn1);
-    button_start(&btn2);
 }

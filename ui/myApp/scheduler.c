@@ -19,7 +19,7 @@ typedef struct {
 static task_t scheduler_task[] ={
     {task_led_proc, 5,      0},
     {button_ticks , 5,      0},
-    {u8g2_proc,     100,    0},
+    {gui_task,      5,      0},
 
 };
 /**

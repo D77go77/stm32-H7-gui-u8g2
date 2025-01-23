@@ -56,17 +56,14 @@ CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj: D:/desktop_document/ui/Core/Src/gpio.
 CMakeFiles/ui.elf.dir/Core/Src/main.c.obj: D:/desktop_document/ui/Core/Src/main.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/alloca.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdio.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/string.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/strings.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
@@ -83,6 +80,7 @@ CMakeFiles/ui.elf.dir/Core/Src/main.c.obj: D:/desktop_document/ui/Core/Src/main.
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/syslimits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslimits.h \
@@ -2179,17 +2177,14 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_u8toa.c.obj: D:/desktop_document/ui/U8g2/u8x8_u8
 CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj: D:/desktop_document/ui/myApp/bsp_key.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/alloca.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdio.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/string.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/strings.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
@@ -2206,6 +2201,7 @@ CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj: D:/desktop_document/ui/myApp/bsp_key.
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/syslimits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslimits.h \
@@ -2255,17 +2251,14 @@ CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj: D:/desktop_document/ui/myApp/bsp_key.
 CMakeFiles/ui.elf.dir/myApp/loop.c.obj: D:/desktop_document/ui/myApp/loop.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/alloca.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdio.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/string.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/strings.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
@@ -2282,6 +2275,7 @@ CMakeFiles/ui.elf.dir/myApp/loop.c.obj: D:/desktop_document/ui/myApp/loop.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/syslimits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslimits.h \
@@ -2331,17 +2325,14 @@ CMakeFiles/ui.elf.dir/myApp/loop.c.obj: D:/desktop_document/ui/myApp/loop.c \
 CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj: D:/desktop_document/ui/myApp/scheduler.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/alloca.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdio.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/string.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/strings.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
@@ -2358,6 +2349,7 @@ CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj: D:/desktop_document/ui/myApp/schedu
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/syslimits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslimits.h \
@@ -2431,17 +2423,14 @@ CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj: D:/desktop_document/ui/myDrivers
 CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj: D:/desktop_document/ui/myDrivers/myGpio.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/alloca.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdio.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/string.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/strings.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
@@ -2458,6 +2447,7 @@ CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj: D:/desktop_document/ui/myDrivers/m
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/syslimits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslimits.h \
@@ -2515,7 +2505,10 @@ CMakeFiles/ui.elf.dir/myGui/menu.c.obj: D:/desktop_document/ui/myGui/menu.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdio.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/string.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/strings.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_locale.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/cdefs.h \
@@ -2524,12 +2517,15 @@ CMakeFiles/ui.elf.dir/myGui/menu.c.obj: D:/desktop_document/ui/myGui/menu.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/lock.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/reent.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/stdio.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/string.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/syslimits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslimits.h \
+  D:/desktop_document/ui/Core/Inc/gpio.h \
   D:/desktop_document/ui/Core/Inc/main.h \
   D:/desktop_document/ui/Core/Inc/stm32h7xx_hal_conf.h \
   D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
@@ -2563,22 +2559,25 @@ CMakeFiles/ui.elf.dir/myGui/menu.c.obj: D:/desktop_document/ui/myGui/menu.c \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   D:/desktop_document/ui/U8g2/u8g2.h \
   D:/desktop_document/ui/U8g2/u8x8.h \
+  D:/desktop_document/ui/myApp/bsp_key.h \
+  D:/desktop_document/ui/myApp/bsp_system.h \
+  D:/desktop_document/ui/myApp/scheduler.h \
+  D:/desktop_document/ui/myDrivers/myButton.h \
+  D:/desktop_document/ui/myDrivers/myGpio.h \
+  D:/desktop_document/ui/myGui/menu.h \
+  D:/desktop_document/ui/myGui/u8g2_oled.h \
   D:/desktop_document/ui/myGui/menu.h
 
 CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj: D:/desktop_document/ui/myGui/u8g2_oled.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/alloca.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdio.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdlib.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_stdint.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_types.h \
@@ -2587,7 +2586,6 @@ CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj: D:/desktop_document/ui/myGui/u8g2_o
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/features.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/lock.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/reent.h \
-  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/stdio.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/syslimits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
@@ -2629,26 +2627,18 @@ CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj: D:/desktop_document/ui/myGui/u8g2_o
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
   D:/desktop_document/ui/U8g2/u8g2.h \
   D:/desktop_document/ui/U8g2/u8x8.h \
-  D:/desktop_document/ui/myGui/menu.h \
-  D:/desktop_document/ui/myGui/u8g2_oled.h \
-  D:/desktop_document/ui/myGui/u8g2_oled_font.h
+  D:/desktop_document/ui/myGui/u8g2_oled.h
 
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h:
 
 D:/desktop_document/ui/Core/Src/gpio.c:
 
-D:/desktop_document/ui/U8g2/u8x8_display.c:
-
-C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h:
-
 D:/desktop_document/ui/U8g2/u8x8_input_value.c:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h:
-
-C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/alloca.h:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h:
 
@@ -2718,9 +2708,15 @@ D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 
 D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_gcc.h:
 
+D:/desktop_document/ui/U8g2/u8g2_intersection.c:
+
+C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h:
+
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/limits.h:
 
 D:/desktop_document/ui/Drivers/CMSIS/Include/core_cm7.h:
+
+C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslimits.h:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 
@@ -2733,6 +2729,8 @@ D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h:
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h:
+
+C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h:
 
@@ -2758,8 +2756,6 @@ C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdio.h:
 
 D:/desktop_document/ui/Core/Src/main.c:
 
-C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdlib.h:
-
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/string.h:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/strings.h:
@@ -2775,10 +2771,6 @@ C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/syslimits.h:
 D:/desktop_document/ui/U8g2/u8g2_fonts.c:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h:
-
-C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h:
-
-C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslimits.h:
 
 D:/desktop_document/ui/Core/Inc/memorymap.h:
 
@@ -2820,6 +2812,8 @@ D:/desktop_document/ui/Core/Inc/stm32h7xx_it.h:
 
 D:/desktop_document/ui/Core/Src/syscalls.c:
 
+C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/alloca.h:
+
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/errno.h:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_endian.h:
@@ -2828,9 +2822,15 @@ C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_time.h:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/endian.h:
 
+D:/desktop_document/ui/U8g2/u8x8_display.c:
+
+C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h:
+
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/time.h:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/types.h:
+
+C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdlib.h:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_pthreadtypes.h:
 
@@ -2928,8 +2928,6 @@ C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/assert.h:
 
 D:/desktop_document/ui/U8g2/u8g2_input_value.c:
 
-D:/desktop_document/ui/U8g2/u8g2_intersection.c:
-
 D:/desktop_document/ui/U8g2/u8x8_selection_list.c:
 
 D:/desktop_document/ui/U8g2/u8g2_kerning.c:
@@ -2983,5 +2981,3 @@ D:/desktop_document/ui/myDrivers/myGpio.c:
 D:/desktop_document/ui/myGui/menu.c:
 
 D:/desktop_document/ui/myGui/u8g2_oled.c:
-
-D:/desktop_document/ui/myGui/u8g2_oled_font.h:
