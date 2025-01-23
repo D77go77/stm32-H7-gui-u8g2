@@ -35,13 +35,13 @@
 
 ## 目录结构 
 stm32-H7-gui-u8g2/
-├── ui/ # UI相关源代码
-│ ├── button/ # 按键处理模块
-│ └── display/ # 显示驱动模块
-├── .gitignore # Git忽略文件配置
-├── CMakeLists.txt # CMake构建配置文件
-├── LICENSE # GPL-3.0开源协议
-└── README.md # 项目说明文档
+  ├── ui/ # UI相关源代码
+  │ ├── button/ # 按键处理模块
+  │ └── display/ # 显示驱动模块
+  ├── .gitignore # Git忽略文件配置
+  ├── CMakeLists.txt # CMake构建配置文件
+  ├── LICENSE # GPL-3.0开源协议
+  └── README.md # 项目说明文档
 
 ## 快速开始
 1. 环境准备
