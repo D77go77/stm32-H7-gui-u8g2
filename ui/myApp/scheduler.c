@@ -18,7 +18,6 @@ typedef struct {
 // 静态任务数组，每个任务包含任务函数、执行周期（毫秒）和上次运行时间（毫秒）
 static task_t scheduler_task[] ={
     {task_led_proc, 5,      0},
-    {button_ticks , 5,      0},
     {gui_task,      5,      0},
 
 };

@@ -8,15 +8,26 @@
   ******************************************************************************
   */
 #include "bsp_system.h"
+/**
+  * @brief  loop
+  * @note   os_loop
+  * @param  None
+  * @retval None
+  */
 void loop(void)
 {
     myGpio_init();
     button_init_all();
     scheduler_init();
     gui_init();
+    myTimeIR_init();
     while(1)
     {
-//        gui_task();
         scheduler_run();
     }
+}
+
+void os_200hz_task(void)
+{
+    button_ticks();//因为按键要求中断触发，所以200hz任务放在中断里面
 }

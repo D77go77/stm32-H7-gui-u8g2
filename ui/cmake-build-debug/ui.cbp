@@ -127,6 +127,9 @@
 		<Unit filename="D:/desktop_document/ui/Core/Inc/stm32h7xx_it.h">
 			<Option target="ui.elf"/>
 		</Unit>
+		<Unit filename="D:/desktop_document/ui/Core/Inc/tim.h">
+			<Option target="ui.elf"/>
+		</Unit>
 		<Unit filename="D:/desktop_document/ui/Core/Src/dma.c">
 			<Option target="ui.elf"/>
 		</Unit>
@@ -155,6 +158,9 @@
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Core/Src/system_stm32h7xx.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Core/Src/tim.c">
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Core/Startup/startup_stm32h750vbtx.s">
@@ -310,6 +316,12 @@
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h">
 			<Option target="ui.elf"/>
 		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h">
+			<Option target="ui.elf"/>
+		</Unit>
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h">
 			<Option target="ui.elf"/>
 		</Unit>
@@ -344,6 +356,9 @@
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_tim.h">
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h">
@@ -404,6 +419,12 @@
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/STM32H750VBTX_FLASH.ld">
@@ -580,6 +601,12 @@
 		<Unit filename="D:/desktop_document/ui/myDrivers/myGpio.h">
 			<Option target="ui.elf"/>
 		</Unit>
+		<Unit filename="D:/desktop_document/ui/myDrivers/myTimeIR.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/myDrivers/myTimeIR.h">
+			<Option target="ui.elf"/>
+		</Unit>
 		<Unit filename="D:/desktop_document/ui/myGui/menu.c">
 			<Option target="ui.elf"/>
 		</Unit>
@@ -590,9 +617,6 @@
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/myGui/u8g2_oled.h">
-			<Option target="ui.elf"/>
-		</Unit>
-		<Unit filename="D:/desktop_document/ui/myGui/u8g2_oled_font.h">
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/CMakeLists.txt">

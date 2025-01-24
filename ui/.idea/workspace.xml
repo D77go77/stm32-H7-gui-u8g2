@@ -3299,9 +3299,9 @@
   }
 }</component>
   <component name="RunManager" selected="OpenOCD 下载并运行.ui.elf">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ui.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ui" TARGET_NAME="ui.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ui" RUN_TARGET_NAME="ui.elf">
@@ -3333,6 +3333,7 @@
       <workItem from="1737616728638" duration="2780000" />
       <workItem from="1737619958225" duration="7927000" />
       <workItem from="1737634028940" duration="513000" />
+      <workItem from="1737683865706" duration="13999000" />
     </task>
     <servers />
   </component>

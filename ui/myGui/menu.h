@@ -18,6 +18,7 @@ enum
     M_KRF,
     M_KPF,
     M_VOLT,
+    M_SERIAL,
     M_SETTING,
     M_ABOUT,
 };

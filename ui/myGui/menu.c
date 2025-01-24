@@ -186,13 +186,14 @@ uint8_t eeprom_change = false;
 /************************************* 定义内容 *************************************/
 
 /************************************* 文字内容 *************************************/
-
+//添加界面第一部分 加主菜单
 M_SELECT main_menu[] =
         {
                 {"Sleep"},
                 {"Editor"},
                 {"Volt"},
-                {"Setting"},
+                {"Serial"},
+                {"Settings"},
         };
 
 M_SELECT editor_menu[] =
@@ -314,19 +315,33 @@ M_SELECT kpf_menu[] =
                 {"= Right Arrow"},
                 {"--------------------------"},
         };
+//添加界面第五部分 添加子界面显示列表，仿照其他函数显示
+M_SELECT serial_menu[] =
+        {
+                {"[ Serial ]"},
+                {"- Function 0"},
+                {"- Function 1"},
+                {"- Function 2"},
+                {"- Function 3"},
+                {"- Function 4"},
+                {"- Function 5"},
+                {"- Function 6"},
+                {"- Function 7"},
+                {"- Function 8"},
+        };
 
 M_SELECT volt_menu[] =
         {
                 {"EV"},
                 {"EA"},
-//  {"A2"},
-//  {"A3"},
-//  {"A4"},
-//  {"A5"},
-//  {"A6"},
-//  {"A7"},
-//  {"B0"},
-//  {"B1"},
+                {"A2"},
+                {"A3"},
+                {"A4"},
+                {"A5"},
+                {"A6"},
+                {"A7"},
+                {"B0"},
+                {"B1"},
         };
 
 M_SELECT setting_menu[] =
@@ -363,10 +378,10 @@ M_SELECT about_menu[] =
         };
 
 /************************************* 图片内容 *************************************/
-
+//添加界面第二部分 加图标
 const uint8_t main_icon_pic[][120] =
         {
-                {
+                {//sleep
                         0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xF1,0x3F,
                         0xFF,0xFF,0xC3,0x3F,0xFF,0xFF,0x87,0x3F,0xFF,0xFF,0x07,0x3F,0xFF,0xFF,0x0F,0x3E,
                         0xFF,0xFF,0x0F,0x3E,0xFF,0xFF,0x0F,0x3C,0xFF,0xFF,0x0F,0x3C,0xFF,0xFF,0x0F,0x38,
@@ -376,7 +391,7 @@ const uint8_t main_icon_pic[][120] =
                         0x7F,0x00,0xC0,0x3F,0xFF,0x01,0xF0,0x3F,0xFF,0x07,0xFC,0x3F,0xFF,0xFF,0xFF,0x3F,
                         0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F
                 },
-                {
+                {//editor
                         0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F,0xFF,0xF9,0xE7,0x3F,
                         0xFF,0xF9,0xE7,0x3F,0xFF,0xF9,0xE7,0x3F,0xFF,0xF0,0xE7,0x3F,0x7F,0xE0,0xE7,0x3F,
                         0x7F,0xE0,0xC3,0x3F,0x7F,0xE0,0xC3,0x3F,0x7F,0xE0,0xC3,0x3F,0x7F,0xE0,0xE7,0x3F,
@@ -386,7 +401,7 @@ const uint8_t main_icon_pic[][120] =
                         0xFF,0xF9,0xE7,0x3F,0xFF,0xF9,0xE7,0x3F,0xFF,0xF9,0xE7,0x3F,0xFF,0xFF,0xFF,0x3F,
                         0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F
                 },
-                {
+                {//volt
                         0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F,0xEF,0xFF,0xFF,0x3F,0xC7,0xFF,0xFF,0x3F,
                         0xC7,0xF3,0xFF,0x3F,0x83,0xC0,0xFF,0x3F,0xEF,0xCC,0xFF,0x3F,0x6F,0x9E,0xFF,0x3F,
                         0x6F,0x9E,0xFF,0x3F,0x2F,0x3F,0xFF,0x3F,0x2F,0x3F,0xFF,0x3F,0x8F,0x7F,0xFE,0x3F,
@@ -396,7 +411,17 @@ const uint8_t main_icon_pic[][120] =
                         0xEF,0xFF,0x7F,0x38,0x0F,0x00,0x00,0x30,0xFF,0xFF,0x7F,0x38,0xFF,0xFF,0x7F,0x3E,
                         0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F,
                 },
-                {
+                {//Serial
+                        0XFF,0X03,0XF0,0X3F,0XFF,0XFD,0XEF,0X3F,0XFF,0XFD,0XEF,0X3F,0XFF,0X0D,0XEC,0X3F,
+                        0XFF,0X0D,0XEC,0X3F,0XFF,0X0D,0XEC,0X3F,0XFF,0XFD,0XEF,0X3F,0XFF,0XFD,0XEF,0X3F,
+                        0X7F,0X00,0X80,0X3F,0X3F,0X00,0X00,0X3F,0X3F,0X00,0X00,0X3F,0X3F,0X00,0X00,0X3F,
+                        0X3F,0XC0,0X00,0X3F,0X3F,0X80,0X0E,0X3F,0X3F,0X80,0X0E,0X3F,0X3F,0X98,0X06,0X3F,
+                        0X3F,0X98,0X03,0X3F,0X3F,0X90,0X00,0X3F,0X3F,0XF0,0X00,0X3F,0X3F,0X80,0X00,0X3F,
+                        0X3F,0XC0,0X00,0X3F,0X3F,0XC0,0X00,0X3F,0X7F,0X00,0X80,0X3F,0XFF,0X00,0XC0,0X3F,
+                        0XFF,0X01,0XE0,0X3F,0XFF,0X03,0XF0,0X3F,0XFF,0X07,0XF8,0X3F,0XFF,0X0F,0XFC,0X3F,
+                        0XFF,0X0F,0XFC,0X3F,0XFF,0X3F,0XFF,0X3F
+                },
+                {//settings
                         0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F,0xFF,0xFF,0xFF,0x3F,
                         0xFF,0x1F,0xFE,0x3F,0xFF,0x1F,0xFE,0x3F,0xFF,0x0C,0xCC,0x3F,0x7F,0x00,0x80,0x3F,
                         0x3F,0x00,0x00,0x3F,0x3F,0xE0,0x01,0x3F,0x7F,0xF8,0x87,0x3F,0x7F,0xFC,0x8F,0x3F,
@@ -409,6 +434,7 @@ const uint8_t main_icon_pic[][120] =
         };
 
 
+//stdlib函数
 char *itoa(uint32_t num)
 {
     static char str[10] = {0};
@@ -527,13 +553,22 @@ void sleep_param_init(void)
 }
 
 // 旋钮设置页初始化
-void knob_param_init(void) { check_box_v_init(knob.param); }
+void knob_param_init(void)
+{
+    check_box_v_init(knob.param);
+}
 
 // 旋钮旋转页初始化
-void krf_param_init(void) { check_box_s_init(&knob.param[KNOB_ROT], &knob.param[KNOB_ROT_P]); }
+void krf_param_init(void)
+{
+    check_box_s_init(&knob.param[KNOB_ROT], &knob.param[KNOB_ROT_P]);
+}
 
 // 旋钮点按页初始化
-void kpf_param_init(void) { check_box_s_init(&knob.param[KNOB_COD], &knob.param[KNOB_COD_P]); }
+void kpf_param_init(void)
+{
+    check_box_s_init(&knob.param[KNOB_COD], &knob.param[KNOB_COD_P]);
+}
 
 // 电压测量页初始化
 void volt_param_init(void)
@@ -824,7 +859,6 @@ void list_draw_text_and_check_box(struct MENU arr[], int i)
 }
 
 /******************************** 列表显示函数 **************************************/
-
 // 列表类页面通用显示函数
 void list_show(struct MENU arr[], uint8_t ui_index)
 {
@@ -975,7 +1009,7 @@ void window_show(void)
     u8g2_DrawStr(&u8g2, win.l + 78, (int16_t)win.y + 14, itoa(*win.value)); // 绘制当前值
 
     // 需要在窗口修改参数时立即见效的函数
-    if (!strcmp(win.title, "Disp Bri"))
+    if (!strcmp(win.title, "Disp Bri"))//默认频率亮度有效
         u8g2_SetContrast(&u8g2, ui.param[DISP_BRI]);
 
     // 反转屏幕内元素颜色，白天模式遮罩
@@ -1020,8 +1054,12 @@ void confirm_window_show(void)
 /************************************* 处理函数 *************************************/
 
 /*********************************** 通用处理函数 ***********************************/
-
-// 磁贴类页面旋转时判断通用函数
+/**
+  * @brief  tile_rotate_switch
+  * @note   磁贴类页面旋转时判断通用函数
+  * @param  CC 上一个 CW 下一个
+  * @retval None
+  */
 void tile_rotate_switch(void)
 {
     switch (btn.id)
@@ -1073,7 +1111,6 @@ void tile_rotate_switch(void)
             break;
     }
 }
-
 // 列表类页面旋转时判断通用函数
 void list_rotate_switch(void)
 {
@@ -1200,7 +1237,6 @@ void window_proc(void)
         }
     }
 }
-
 // 弹窗通用处理函数
 void confirm_window_proc(void)
 {
@@ -1239,55 +1275,34 @@ void sleep_proc(void)
     while (ui.sleep)
     {
         // 睡眠时循环执行的函数
-
         // 睡眠时需要扫描旋钮才能退出睡眠
-//    btn_scan();
-
         // 当旋钮有动作时
         if (btn.pressed)
         {
             btn.pressed = false;
             switch (btn.id)
             {
-
-                // 睡眠时顺时针旋转执行的函数
-                case BTN_ID_CW:
+                case BTN_ID_CW:// 睡眠时顺时针旋转执行的函数
                     switch (knob.param[KNOB_ROT])
                     {
                         case KNOB_ROT_VOL:
-//          Consumer.press(HIDConsumer::VOLUME_UP);
-//          Consumer.release();
                             break;
                         case KNOB_ROT_BRI:
-//          Consumer.press(HIDConsumer::BRIGHTNESS_UP);
-//          Consumer.release();
                             break;
                     }
                     break;
-
-                    // 睡眠时逆时针旋转执行的函数
-                case BTN_ID_CC:
+                case BTN_ID_CC:// 睡眠时逆时针旋转执行的函数
                     switch (knob.param[KNOB_ROT])
                     {
                         case KNOB_ROT_VOL:
-//          Consumer.press(HIDConsumer::VOLUME_DOWN);
-//          Consumer.release();
                             break;
                         case KNOB_ROT_BRI:
-//          Consumer.press(HIDConsumer::BRIGHTNESS_DOWN);
-//          Consumer.release();
                             break;
                     }
                     break;
-
-                    // 睡眠时短按执行的函数
-                case BTN_ID_SP:
-//        Keyboard.press(knob.param[KNOB_COD]);
-//        Keyboard.release(knob.param[KNOB_COD]);
+                case BTN_ID_SP:// 睡眠时短按执行的函数
                     break;
-
-                    // 睡眠时长按执行的函数
-                case BTN_ID_LP:
+                case BTN_ID_LP:// 睡眠时长按执行的函数
                     ui.index = M_MAIN;
                     ui.state = S_LAYER_IN;
                     u8g2_SetPowerSave(&u8g2, 0);
@@ -1312,7 +1327,7 @@ void main_proc(void)
             case BTN_ID_CC:
                 tile_rotate_switch();
                 break;
-            case BTN_ID_SP:
+            case BTN_ID_SP://添加界面第三部分 加控制界面 同时在menu.h部分添加状态枚举
                 switch (ui.select[ui.layer])
                 {
                     case 0:
@@ -1328,6 +1343,10 @@ void main_proc(void)
                         ui.state = S_LAYER_IN;
                         break;
                     case 3:
+                        ui.index = M_SERIAL;
+                        ui.state = S_LAYER_IN;
+                        break;
+                    case 4:
                         ui.index = M_SETTING;
                         ui.state = S_LAYER_IN;
                         break;
@@ -1590,15 +1609,39 @@ void kpf_proc(void)
                     case 40:
                         check_box_s_select('9', ui.select[ui.layer]);
                         break;
-                    case 41:
-                        break;
-                    case 81:
-                        break;
                 }
         }
     }
 }
+//*****************************Main-Proc-Show****************************************//
+//添加界面第四部分 添加子界面显示，仿照其他函数显示
+void serial_proc(void)
+{
+    list_show(serial_menu, M_SERIAL);
+    if (btn.pressed)
+    {
+        btn.pressed = false;
+        switch (btn.id)
+        {
+            case BTN_ID_CW:
+            case BTN_ID_CC:
+                list_rotate_switch();
+                break;
+            case BTN_ID_LP:
+                ui.select[ui.layer] = 0;
+            case BTN_ID_SP:
+                switch (ui.select[ui.layer])
+                {
+                    case 0:// 返回更浅层级，长按被当作选择这一项，也是执行这一行
+                        ui.index = M_MAIN;
+                        ui.state = S_LAYER_OUT;
+                        break;
 
+                }
+        }
+    }
+
+}
 // 电压测量页处理函数
 void volt_proc(void)
 {
@@ -1785,6 +1828,9 @@ void ui_proc(void)
                 case M_VOLT:
                     volt_proc();
                     break;
+                case M_SERIAL:
+                    serial_proc();
+                    break;
                 case M_SETTING:
                     setting_proc();
                     break;
@@ -1794,16 +1840,22 @@ void ui_proc(void)
             }
     }
 }
-
 /*********************************** UI 初始化函数 *********************************/
 
 // 在初始化EEPROM时，选择性初始化的默认设置
+/**
+  * @brief  ui_param_init 菜单参数初始化
+  * @note   None
+  * @param  None
+  * @retval None
+  */
 void ui_param_init(void)
 {
+    //0-255 速度越大越慢 速度依赖于delay
     ui.param[DISP_BRI] = 255; // 屏幕亮度
-    ui.param[TILE_ANI] = 30;  // 磁贴动画速度
+    ui.param[TILE_ANI] = 50;  // 磁贴动画速度
     ui.param[LIST_ANI] = 60;  // 列表动画速度
-    ui.param[WIN_ANI] = 25;   // 弹窗动画速度
+    ui.param[WIN_ANI] = 20;   // 弹窗动画速度
     ui.param[SPOT_ANI] = 50;  // 聚光动画速度
     ui.param[TAG_ANI] = 60;   // 标签动画速度
     ui.param[FADE_ANI] = 30;  // 消失动画速度
@@ -1813,22 +1865,30 @@ void ui_param_init(void)
     ui.param[LIST_UFD] = 1;   // 菜单列表从头展开开关
     ui.param[TILE_LOOP] = 0;  // 磁贴图标循环模式开关
     ui.param[LIST_LOOP] = 0;  // 菜单列表循环模式开关
-    ui.param[WIN_BOK] = 0;    // 弹窗背景虚化开关
+    ui.param[WIN_BOK] = 1;    // 弹窗背景虚化开关
     ui.param[KNOB_DIR] = 0;   // 旋钮方向切换开关
     ui.param[DARK_MODE] = 1;  // 黑暗模式开关
 }
 
-// 列表类页面列表行数初始化，必须初始化的参数
+/**
+  * @brief  ui_init
+  * @note   列表类页面列表行数初始化，必须初始化的参数
+  * @param  None
+  * @retval None
+  */
 void ui_init(void)
 {
-    ui.num[M_MAIN] = sizeof(main_menu) / sizeof(M_SELECT);
-    ui.num[M_EDITOR] = sizeof(editor_menu) / sizeof(M_SELECT);
-    ui.num[M_KNOB] = sizeof(knob_menu) / sizeof(M_SELECT);
-    ui.num[M_KRF] = sizeof(krf_menu) / sizeof(M_SELECT);
-    ui.num[M_KPF] = sizeof(kpf_menu) / sizeof(M_SELECT);
-    ui.num[M_VOLT] = sizeof(volt_menu) / sizeof(M_SELECT);
-    ui.num[M_SETTING] = sizeof(setting_menu) / sizeof(M_SELECT);
-    ui.num[M_ABOUT] = sizeof(about_menu) / sizeof(M_SELECT);
+    // 初始化列表行数
+    // //添加界面第六部分 添加菜单初始化
+    ui.num[M_MAIN] =    sizeof(main_menu)       / sizeof(M_SELECT);
+    ui.num[M_EDITOR] =  sizeof(editor_menu)     / sizeof(M_SELECT);
+    ui.num[M_KNOB] =    sizeof(knob_menu)       / sizeof(M_SELECT);
+    ui.num[M_KRF] =     sizeof(krf_menu)        / sizeof(M_SELECT);
+    ui.num[M_KPF] =     sizeof(kpf_menu)        / sizeof(M_SELECT);
+    ui.num[M_VOLT] =    sizeof(volt_menu)       / sizeof(M_SELECT);
+    ui.num[M_SERIAL] =  sizeof(serial_menu)     / sizeof(M_SELECT);
+    ui.num[M_SETTING] = sizeof(setting_menu)    / sizeof(M_SELECT);
+    ui.num[M_ABOUT] =   sizeof(about_menu)      / sizeof(M_SELECT);
 
 //	ui_param_init();
 
@@ -1874,9 +1934,7 @@ void eeprom_notify_change(void)
 
 //内存排列顺序：UI参数+计数翻转时间+计数次数+校验
 #define USER_CONFIG_SIZE	UI_PARAM + 1 + 4 + 1
-
-
-// u8g2初始化函数
+// u8g2  UI缓存区推送初始化函数
 void u8g2_init(void)
 {
     buf_ptr = u8g2_GetBufferPtr(&u8g2);
@@ -1884,6 +1942,13 @@ void u8g2_init(void)
     u8g2_SetContrast(&u8g2, ui.param[DISP_BRI]);
 }
 
+/**
+  * @brief  gui_btn_send_signal 按键传递函数
+  * @note   None
+  * @param  btn_id 按键序号
+  * @param  event 按键状态
+  * @retval None
+  */
 void gui_btn_send_signal(uint8_t btn_id, uint8_t event)
 {
     static uint8_t flag[3] = {0}; // 解决长按松开还会触发一下按键抬起的，又发送一次的问题
@@ -1946,11 +2011,24 @@ void gui_btn_send_signal(uint8_t btn_id, uint8_t event)
     }
 }
 
+
+/**
+  * @brief  gui_task 菜单运行
+  * @note   None
+  * @param  None
+  * @retval None
+  */
 void gui_task(void)
 {
     ui_proc();
 }
 
+/**
+  * @brief  gui_init 菜单界面初始化
+  * @note   None
+  * @param  None
+  * @retval None
+  */
 void gui_init(void)
 {
     ui_param_init();

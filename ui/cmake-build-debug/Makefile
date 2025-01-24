@@ -368,6 +368,30 @@ Core/Src/system_stm32h7xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.s
 .PHONY : Core/Src/system_stm32h7xx.c.s
 
+Core/Src/tim.obj: Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.obj
+
+# target to build an object file
+Core/Src/tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.c.obj
+
+Core/Src/tim.i: Core/Src/tim.c.i
+.PHONY : Core/Src/tim.i
+
+# target to preprocess a source file
+Core/Src/tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Core/Src/tim.c.i
+.PHONY : Core/Src/tim.c.i
+
+Core/Src/tim.s: Core/Src/tim.c.s
+.PHONY : Core/Src/tim.s
+
+# target to generate assembly for a file
+Core/Src/tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Core/Src/tim.c.s
+.PHONY : Core/Src/tim.c.s
+
 Core/Startup/startup_stm32h750vbtx.obj: Core/Startup/startup_stm32h750vbtx.s.obj
 .PHONY : Core/Startup/startup_stm32h750vbtx.obj
 
@@ -807,6 +831,54 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.s: Drivers/STM32H7xx_HAL_D
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
 
 U8g2/mui.obj: U8g2/mui.c.obj
 .PHONY : U8g2/mui.obj
@@ -1912,6 +1984,30 @@ myDrivers/myGpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.s
 .PHONY : myDrivers/myGpio.c.s
 
+myDrivers/myTimeIR.obj: myDrivers/myTimeIR.c.obj
+.PHONY : myDrivers/myTimeIR.obj
+
+# target to build an object file
+myDrivers/myTimeIR.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
+.PHONY : myDrivers/myTimeIR.c.obj
+
+myDrivers/myTimeIR.i: myDrivers/myTimeIR.c.i
+.PHONY : myDrivers/myTimeIR.i
+
+# target to preprocess a source file
+myDrivers/myTimeIR.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.i
+.PHONY : myDrivers/myTimeIR.c.i
+
+myDrivers/myTimeIR.s: myDrivers/myTimeIR.c.s
+.PHONY : myDrivers/myTimeIR.s
+
+# target to generate assembly for a file
+myDrivers/myTimeIR.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.s
+.PHONY : myDrivers/myTimeIR.c.s
+
 myGui/menu.obj: myGui/menu.c.obj
 .PHONY : myGui/menu.obj
 
@@ -1999,6 +2095,9 @@ help:
 	@echo ... Core/Src/system_stm32h7xx.obj
 	@echo ... Core/Src/system_stm32h7xx.i
 	@echo ... Core/Src/system_stm32h7xx.s
+	@echo ... Core/Src/tim.obj
+	@echo ... Core/Src/tim.i
+	@echo ... Core/Src/tim.s
 	@echo ... Core/Startup/startup_stm32h750vbtx.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.i
@@ -2054,6 +2153,12 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.s
 	@echo ... U8g2/mui.obj
 	@echo ... U8g2/mui.i
 	@echo ... U8g2/mui.s
@@ -2192,6 +2297,9 @@ help:
 	@echo ... myDrivers/myGpio.obj
 	@echo ... myDrivers/myGpio.i
 	@echo ... myDrivers/myGpio.s
+	@echo ... myDrivers/myTimeIR.obj
+	@echo ... myDrivers/myTimeIR.i
+	@echo ... myDrivers/myTimeIR.s
 	@echo ... myGui/menu.obj
 	@echo ... myGui/menu.i
 	@echo ... myGui/menu.s

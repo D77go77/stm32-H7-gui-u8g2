@@ -51,7 +51,9 @@ CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj: D:/desktop_document/ui/Core/Src/dma.c 
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj: D:/desktop_document/ui/Core/Src/gpio.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -103,7 +105,9 @@ CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj: D:/desktop_document/ui/Core/Src/gpio.
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Core/Src/main.c.obj: D:/desktop_document/ui/Core/Src/main.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -142,6 +146,7 @@ CMakeFiles/ui.elf.dir/Core/Src/main.c.obj: D:/desktop_document/ui/Core/Src/main.
   D:/desktop_document/ui/Core/Inc/memorymap.h \
   D:/desktop_document/ui/Core/Inc/spi.h \
   D:/desktop_document/ui/Core/Inc/stm32h7xx_hal_conf.h \
+  D:/desktop_document/ui/Core/Inc/tim.h \
   D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
   D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
   D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
@@ -171,6 +176,8 @@ CMakeFiles/ui.elf.dir/Core/Src/main.c.obj: D:/desktop_document/ui/Core/Src/main.
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   D:/desktop_document/ui/U8g2/u8g2.h \
   D:/desktop_document/ui/U8g2/u8x8.h \
   D:/desktop_document/ui/myApp/bsp_key.h \
@@ -178,6 +185,7 @@ CMakeFiles/ui.elf.dir/Core/Src/main.c.obj: D:/desktop_document/ui/Core/Src/main.
   D:/desktop_document/ui/myApp/scheduler.h \
   D:/desktop_document/ui/myDrivers/myButton.h \
   D:/desktop_document/ui/myDrivers/myGpio.h \
+  D:/desktop_document/ui/myDrivers/myTimeIR.h \
   D:/desktop_document/ui/myGui/menu.h \
   D:/desktop_document/ui/myGui/u8g2_oled.h
 
@@ -231,7 +239,9 @@ CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.obj: D:/desktop_document/ui/Core/Src/
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj: D:/desktop_document/ui/Core/Src/spi.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -283,7 +293,9 @@ CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj: D:/desktop_document/ui/Core/Src/spi.c 
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: D:/desktop_document/ui/Core/Src/stm32h7xx_hal_msp.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -334,7 +346,9 @@ CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: D:/desktop_document/ui/C
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.obj: D:/desktop_document/ui/Core/Src/stm32h7xx_it.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -386,7 +400,9 @@ CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.obj: D:/desktop_document/ui/Core/S
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Core/Src/syscalls.c.obj: D:/desktop_document/ui/Core/Src/syscalls.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -504,7 +520,63 @@ CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.obj: D:/desktop_document/ui/Co
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
+
+CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj: D:/desktop_document/ui/Core/Src/tim.c \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/config.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/lock.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  D:/desktop_document/ui/Core/Inc/main.h \
+  D:/desktop_document/ui/Core/Inc/stm32h7xx_hal_conf.h \
+  D:/desktop_document/ui/Core/Inc/tim.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/core_cm7.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -554,7 +626,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: D:/d
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -604,7 +678,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.ob
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -654,7 +730,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: 
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -704,7 +782,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.ob
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -754,7 +834,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj:
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -804,7 +886,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -854,7 +938,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -904,7 +990,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj:
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -954,7 +1042,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj:
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -1004,7 +1094,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: 
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -1054,7 +1146,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.ob
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -1104,7 +1198,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj:
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -1154,7 +1250,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: 
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -1204,7 +1302,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.ob
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -1254,7 +1354,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: 
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -1304,7 +1406,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.ob
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -1354,7 +1458,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: 
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -1404,7 +1510,113 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.ob
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
+
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/config.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/lock.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  D:/desktop_document/ui/Core/Inc/stm32h7xx_hal_conf.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/core_cm7.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
+
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/config.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/lock.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  D:/desktop_document/ui/Core/Inc/stm32h7xx_hal_conf.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/core_cm7.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
 
 CMakeFiles/ui.elf.dir/U8g2/mui.c.obj: D:/desktop_document/ui/U8g2/mui.c \
   C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
@@ -2290,6 +2502,8 @@ CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj: D:/desktop_document/ui/myApp/bsp_key.
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   D:/desktop_document/ui/U8g2/u8g2.h \
   D:/desktop_document/ui/U8g2/u8x8.h \
   D:/desktop_document/ui/myApp/bsp_system.h \
@@ -2298,6 +2512,7 @@ CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj: D:/desktop_document/ui/myApp/bsp_key.
   D:/desktop_document/ui/myApp/scheduler.h \
   D:/desktop_document/ui/myDrivers/myButton.h \
   D:/desktop_document/ui/myDrivers/myGpio.h \
+  D:/desktop_document/ui/myDrivers/myTimeIR.h \
   D:/desktop_document/ui/myGui/menu.h \
   D:/desktop_document/ui/myGui/u8g2_oled.h
 
@@ -2364,6 +2579,8 @@ CMakeFiles/ui.elf.dir/myApp/loop.c.obj: D:/desktop_document/ui/myApp/loop.c \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   D:/desktop_document/ui/U8g2/u8g2.h \
   D:/desktop_document/ui/U8g2/u8x8.h \
   D:/desktop_document/ui/myApp/bsp_system.h \
@@ -2372,6 +2589,7 @@ CMakeFiles/ui.elf.dir/myApp/loop.c.obj: D:/desktop_document/ui/myApp/loop.c \
   D:/desktop_document/ui/myApp/scheduler.h \
   D:/desktop_document/ui/myDrivers/myButton.h \
   D:/desktop_document/ui/myDrivers/myGpio.h \
+  D:/desktop_document/ui/myDrivers/myTimeIR.h \
   D:/desktop_document/ui/myGui/menu.h \
   D:/desktop_document/ui/myGui/u8g2_oled.h
 
@@ -2438,6 +2656,8 @@ CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj: D:/desktop_document/ui/myApp/schedu
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   D:/desktop_document/ui/U8g2/u8g2.h \
   D:/desktop_document/ui/U8g2/u8x8.h \
   D:/desktop_document/ui/myApp/bsp_system.h \
@@ -2446,6 +2666,7 @@ CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj: D:/desktop_document/ui/myApp/schedu
   D:/desktop_document/ui/myApp/scheduler.h \
   D:/desktop_document/ui/myDrivers/myButton.h \
   D:/desktop_document/ui/myDrivers/myGpio.h \
+  D:/desktop_document/ui/myDrivers/myTimeIR.h \
   D:/desktop_document/ui/myGui/menu.h \
   D:/desktop_document/ui/myGui/u8g2_oled.h
 
@@ -2536,6 +2757,8 @@ CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj: D:/desktop_document/ui/myDrivers/m
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   D:/desktop_document/ui/U8g2/u8g2.h \
   D:/desktop_document/ui/U8g2/u8x8.h \
   D:/desktop_document/ui/myApp/bsp_key.h \
@@ -2543,7 +2766,86 @@ CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj: D:/desktop_document/ui/myDrivers/m
   D:/desktop_document/ui/myApp/scheduler.h \
   D:/desktop_document/ui/myDrivers/myButton.h \
   D:/desktop_document/ui/myDrivers/myGpio.h \
+  D:/desktop_document/ui/myDrivers/myTimeIR.h \
   D:/desktop_document/ui/myDrivers/myGpio.h \
+  D:/desktop_document/ui/myGui/menu.h \
+  D:/desktop_document/ui/myGui/u8g2_oled.h
+
+CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj: D:/desktop_document/ui/myDrivers/myTimeIR.c \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_ansi.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/limits.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/math.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/newlib.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdint.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/stdio.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/string.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/strings.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_locale.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_types.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/config.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/lock.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/stdio.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/string.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/syslimits.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslimits.h \
+  D:/desktop_document/ui/Core/Inc/gpio.h \
+  D:/desktop_document/ui/Core/Inc/main.h \
+  D:/desktop_document/ui/Core/Inc/stm32h7xx_hal_conf.h \
+  D:/desktop_document/ui/Core/Inc/tim.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/core_cm7.h \
+  D:/desktop_document/ui/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  D:/desktop_document/ui/U8g2/u8g2.h \
+  D:/desktop_document/ui/U8g2/u8x8.h \
+  D:/desktop_document/ui/myApp/bsp_key.h \
+  D:/desktop_document/ui/myApp/bsp_system.h \
+  D:/desktop_document/ui/myApp/scheduler.h \
+  D:/desktop_document/ui/myDrivers/myButton.h \
+  D:/desktop_document/ui/myDrivers/myGpio.h \
+  D:/desktop_document/ui/myDrivers/myTimeIR.h \
+  D:/desktop_document/ui/myDrivers/myTimeIR.h \
   D:/desktop_document/ui/myGui/menu.h \
   D:/desktop_document/ui/myGui/u8g2_oled.h
 
@@ -2610,6 +2912,8 @@ CMakeFiles/ui.elf.dir/myGui/menu.c.obj: D:/desktop_document/ui/myGui/menu.c \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   D:/desktop_document/ui/U8g2/u8g2.h \
   D:/desktop_document/ui/U8g2/u8x8.h \
   D:/desktop_document/ui/myApp/bsp_key.h \
@@ -2617,6 +2921,7 @@ CMakeFiles/ui.elf.dir/myGui/menu.c.obj: D:/desktop_document/ui/myGui/menu.c \
   D:/desktop_document/ui/myApp/scheduler.h \
   D:/desktop_document/ui/myDrivers/myButton.h \
   D:/desktop_document/ui/myDrivers/myGpio.h \
+  D:/desktop_document/ui/myDrivers/myTimeIR.h \
   D:/desktop_document/ui/myGui/menu.h \
   D:/desktop_document/ui/myGui/u8g2_oled.h \
   D:/desktop_document/ui/myGui/menu.h
@@ -2678,6 +2983,8 @@ CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj: D:/desktop_document/ui/myGui/u8g2_o
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
   D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
   D:/desktop_document/ui/U8g2/u8g2.h \
   D:/desktop_document/ui/U8g2/u8x8.h \
   D:/desktop_document/ui/myGui/u8g2_oled.h
@@ -2722,6 +3029,8 @@ C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_types.h:
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/cdefs.h:
 
 D:/desktop_document/ui/Core/Inc/gpio.h:
+
+D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h:
 
@@ -2777,11 +3086,13 @@ D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h:
 
+D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
+
+D:/desktop_document/ui/myDrivers/myTimeIR.h:
+
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h:
-
-C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h:
 
@@ -2823,6 +3134,8 @@ D:/desktop_document/ui/U8g2/u8g2_fonts.c:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/limits.h:
 
+C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h:
+
 D:/desktop_document/ui/U8g2/u8g2_intersection.c:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h:
@@ -2832,6 +3145,8 @@ C:/Software/Clion/Arm_GNU/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/syslim
 D:/desktop_document/ui/Core/Inc/memorymap.h:
 
 D:/desktop_document/ui/Core/Inc/spi.h:
+
+D:/desktop_document/ui/Core/Inc/tim.h:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c:
 
@@ -2893,6 +3208,8 @@ C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_pthreadtypes.h:
 
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_sigset.h:
 
+D:/desktop_document/ui/myDrivers/myTimeIR.c:
+
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/_timespec.h:
 
 D:/desktop_document/ui/Core/Src/sysmem.c:
@@ -2918,6 +3235,10 @@ C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/sys/types.h:
 C:/Software/Clion/Arm_GNU/14.2\ rel1/arm-none-eabi/include/time.h:
 
 D:/desktop_document/ui/Core/Src/system_stm32h7xx.c:
+
+D:/desktop_document/ui/U8g2/u8g2_ll_hvline.c:
+
+D:/desktop_document/ui/Core/Src/tim.c:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c:
 
@@ -2952,6 +3273,10 @@ D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c:
 D:/desktop_document/ui/U8g2/u8x8_message.c:
 
 D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:
+
+D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c:
+
+D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c:
 
 D:/desktop_document/ui/U8g2/mui.c:
 
@@ -2990,8 +3315,6 @@ D:/desktop_document/ui/U8g2/u8x8_selection_list.c:
 D:/desktop_document/ui/U8g2/u8g2_kerning.c:
 
 D:/desktop_document/ui/U8g2/u8g2_line.c:
-
-D:/desktop_document/ui/U8g2/u8g2_ll_hvline.c:
 
 D:/desktop_document/ui/U8g2/u8g2_message.c:
 
